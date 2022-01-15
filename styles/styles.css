@@ -33,19 +33,19 @@ text-transform: uppercase;
 
 .orange{
     width: 20vw;
-    height: 20vh;
+    height: 40vh;
     padding: 2rem;
    background-color:  hsl(31, 77%, 52%);
 }
 .teal {
     width: 20vw;
-    height: 20vh;
+    height: 40vh;
     padding: 2rem;
     background-color: hsl(184,100%, 22%);
 }
 .green{
     width: 20vw;
-    height: 20vh;
+    height: 40vh;
     padding: 2rem;
     background-color: hsl(179,100%,13%);
 }
