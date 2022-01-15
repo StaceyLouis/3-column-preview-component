@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300;400&display=swap');
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 740px) and (min-width: 1440px){
     body{
         background-color: hsl(0, 0%, 95%);
         height: 100vh;
@@ -48,9 +48,6 @@ text-transform: uppercase;
     height: 40vh;
     padding: 2rem;
     background-color: hsl(179,100%,13%);
-}
-.content{
-
 }
 
 .btn{

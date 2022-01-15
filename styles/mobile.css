@@ -1,0 +1,102 @@
+@media screen and (min-width: 375px) and (max-width: 740px){
+    body{
+        background-color: hsl(0, 0%, 95%);
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 1rem;
+
+    }
+    .comp-container{
+        
+color: white;
+    }
+    .title{
+        font-size: 1.8rem;
+        padding: 1.1rem 0;
+        font-family: "Big Shoulders Display";
+        text-transform: uppercase;
+        }
+        .description{
+            font-family: "Lexend Deca";
+            font-size: 0.8rem;
+            line-height: 1.5rem;
+           color: hsla(0, 0%, 100%, 0.75);
+           font-weight: 300;
+        }
+
+        .orange{
+            width: 50vw;
+            height: 30vh;
+            padding: 2rem;
+           background-color:  hsl(31, 77%, 52%);
+        }
+        .teal {
+            width: 50vw;
+            height: 30vh;
+            padding: 2rem;
+            background-color: hsl(184,100%, 22%);
+        }
+        .green{
+            width: 50vw;
+            height: 30vh;
+            padding: 2rem;
+            background-color: hsl(179,100%,13%);
+        }
+
+        .btn{
+            background-color: white;
+            border: none;
+            margin-top: 1rem;
+            padding: 0.8rem;
+            width: 8rem;
+        font-size: .8rem;
+        border-radius: 2rem;
+        font-family: "Lexend Deca";
+        font-weight: bold;
+            
+        }
+        #orange{
+            color:hsl(31, 77%, 52%);
+        }
+        #orange:hover{
+            background-color: hsl(31, 77%, 52%);
+            color: white;
+            border: 0.1rem solid white;
+        }
+        
+        #teal{
+            color:hsl(184,100%, 22%);
+        
+        }
+        #teal:hover{
+            background-color:hsl(184,100%, 22%);
+            color: white;
+            border: 0.1rem solid white;
+        }
+        
+        
+        #green{
+            color: hsl(179,100%,13%);
+        }
+        #green:hover{
+            background-color: hsl(179,100%,13%);
+            color: white;
+            border: 0.1rem solid white;
+        }
+        
+        .attribution {
+            position: fixed;
+            bottom: 0;
+         font-size: 11px;
+        text-align: center;
+        }
+        .attribution a {
+         color: hsl(228, 45%, 44%);
+        
+        }
+
+}
