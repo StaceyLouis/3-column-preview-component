@@ -18,7 +18,7 @@ color: white;
     }
 
 .title{
-font-size: 2rem;
+font-size: 2.4rem;
 padding: 2rem 0;
 font-family: "Big Shoulders Display";
 text-transform: uppercase;
@@ -33,19 +33,19 @@ text-transform: uppercase;
 
 .orange{
     width: 20vw;
-    height: 35vh;
+    height: 20vh;
     padding: 2rem;
    background-color:  hsl(31, 77%, 52%);
 }
 .teal {
     width: 20vw;
-    height: 35vh;
+    height: 20vh;
     padding: 2rem;
     background-color: hsl(184,100%, 22%);
 }
 .green{
     width: 20vw;
-    height: 35vh;
+    height: 20vh;
     padding: 2rem;
     background-color: hsl(179,100%,13%);
 }
@@ -56,7 +56,7 @@ text-transform: uppercase;
 .btn{
     background-color: white;
     border: none;
-    margin-top: 3rem;
+    margin-top: 5rem;
     padding: 0.8rem;
     width: 8rem;
 font-size: .8rem;
@@ -68,15 +68,32 @@ font-weight: bold;
 #orange{
     color:hsl(31, 77%, 52%);
 }
+#orange:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 0.1rem solid white;
+}
 
 #teal{
     color:hsl(184,100%, 22%);
 
 }
+#teal:hover{
+    background-color:hsl(184,100%, 22%);
+    color: white;
+    border: 0.1rem solid white;
+}
+
 
 #green{
     color: hsl(179,100%,13%);
 }
+#green:hover{
+    background-color: hsl(179,100%,13%);
+    color: white;
+    border: 0.1rem solid white;
+}
+
 .attribution {
     position: fixed;
     bottom: 0;
